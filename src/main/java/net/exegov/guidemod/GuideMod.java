@@ -4,7 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+//Test Comment
 public class GuideMod implements ModInitializer {
 	public static final String MOD_ID = "guidemod";
 
