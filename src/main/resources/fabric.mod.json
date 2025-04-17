@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "guidemod",
+	"version": "${version}",
+	"name": "Guide Mod",
+	"description": "Guide Mod (Testing) for 21",
+	"authors": [
+		"Exegov"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/guidemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.exegov.guidemod.GuideMod"
+		],
+		"fabric-datagen": [
+			"net.exegov.guidemod.GuideModDataGenerator"
+		],
+		"client": [
+			"net.exegov.guidemod.GuideModClient"
+		]
+	},
+	"mixins": [
+		"guidemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
