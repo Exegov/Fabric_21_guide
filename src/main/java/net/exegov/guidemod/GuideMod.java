@@ -1,5 +1,6 @@
 package net.exegov.guidemod;
 
+import net.exegov.guidemod.block.ModBlocks;
 import net.exegov.guidemod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,6 +16,7 @@ public class GuideMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

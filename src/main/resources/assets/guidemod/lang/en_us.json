@@ -1,4 +1,6 @@
 {
   "item.guidemod.nivonium_crystal": "Nivonium Crystal",
-  "item.guidemod.unpolished_nivonium": "Unpolished Nivonium"
+  "item.guidemod.unpolished_nivonium": "Unpolished Nivonium",
+
+  "block.guidemod.nivonium_crystal_block": "Nivonium Crystal Block"
 }
